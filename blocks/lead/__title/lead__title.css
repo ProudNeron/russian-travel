@@ -11,3 +11,17 @@
   color: #FFF;
   text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

@@ -9,4 +9,5 @@
   text-align: center;
   color: #FFF;
   text-rendering: optimizeLegibility;
+  position: relative;
 }

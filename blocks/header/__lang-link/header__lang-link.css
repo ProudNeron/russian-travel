@@ -10,3 +10,10 @@
   text-decoration: none;
   color: #FFF;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-style: 18px;
+    line-height: 20px;
+  }
+}
