@@ -11,9 +11,27 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 944px) {
+  .lead__caption {
+    margin-left: calc((100% - 752px)/2);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: calc((100% - 720px)/2);
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .lead__caption {
+    margin-left: calc((100% - 450px)/2);
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .lead__caption {
+    margin-left: calc((100% - 304px)/2);
   }
 }
 

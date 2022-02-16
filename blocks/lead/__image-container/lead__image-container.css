@@ -12,9 +12,15 @@
   }
 }
 
+@media screen and (max-width: 944px) {
+  .lead__image-container {
+    width: 752px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead__image-container {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -23,3 +29,4 @@
     margin-top: 40px;
   }
 }
+

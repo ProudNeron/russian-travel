@@ -7,3 +7,17 @@
   justify-content: flex-end;
   gap: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__links-row {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links-row {
+    margin-top: 64px;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

@@ -9,7 +9,7 @@
 }
 
 .places__place:last-of-type {
-  margin-bottom: 0;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +23,7 @@
 @media screen and (max-width: 768px) {
   .places__place{
     max-width: 720px;
-    grid-template-rows: 1fr 340px;
+    grid-template-rows: 1fr minmax(min-content, min-content);
     gap: 48px 28px;
   }
 }
