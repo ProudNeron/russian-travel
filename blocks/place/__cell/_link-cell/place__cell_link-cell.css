@@ -1,12 +1,17 @@
-.places__cell_link-cell {
+.place__cell_link-cell {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  gap: 12px;
+  gap: 10px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
   color: #FFF;
+}
+
+@media screen and (max-width: 320px) {
+  .place__cell_link-cell {
+    margin-left: 16px;
+  }
 }

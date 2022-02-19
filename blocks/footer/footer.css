@@ -6,24 +6,36 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+  .footer {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
   .footer {
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 944px) {
+  .footer {
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width: 784px) {
   .footer {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 736px) {
   .footer {
     max-width: 186px;
     flex-direction: column;
     gap: 48px;
-    margin-left: calc((100% - 288px)/2);
+    margin-left: 16px;
     margin-right: 0;
   }
 }

@@ -14,19 +14,18 @@
 
 @media screen and (max-width: 944px) {
   .lead__image-container {
-    width: 752px;
+    max-width: 752px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image-container {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 336px) {
   .lead__image-container {
     margin-top: 40px;
   }
 }
-

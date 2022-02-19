@@ -8,13 +8,13 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 784px) {
   .footer__links-row {
     margin-top: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 736px) {
   .footer__links-row {
     margin-top: 64px;
     flex-direction: column;

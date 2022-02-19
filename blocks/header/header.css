@@ -32,23 +32,17 @@
 
 @media screen and (max-width: 736px) {
   .header {
-    max-width: 620px;
+    max-width: 450px;
   }
 }
 
-@media screen and (max-width: 636px) {
-  .header {
-    max-width: 425px;
-  }
-}
-
-@media screen and (max-width: 441px) {
+@media screen and (max-width: 466px) {
   .header {
     max-width: 320px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 336px) {
   .header {
     max-width: 288px;
   }

@@ -11,11 +11,6 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 944px) {
-  .lead__caption {
-    margin-left: calc((100% - 752px)/2);
-  }
-}
 
 @media screen and (max-width: 768px) {
   .lead__caption {
@@ -31,11 +26,11 @@
 
 @media screen and (max-width: 466px) {
   .lead__caption {
-    margin-left: calc((100% - 304px)/2);
+    margin-left: calc((100% - 320px)/2);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 336px) {
   .lead__caption {
     margin-left: calc((100% - 288px)/2);
   }
