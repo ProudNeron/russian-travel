@@ -7,15 +7,21 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFF;
   position: relative;
+}
+
+@media screen and (max-width: 566px) {
+  .cover__subtitle {
+     font-size: 14px;
+     line-height: 16px;
+  }
 }
 
 @media screen and (max-width: 466px) {
   .cover__subtitle {
      max-width: 320px;
-     font-size: 14px;
-     line-height: 16px;
+     margin-top: 16px;
   }
 }
 

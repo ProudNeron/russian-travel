@@ -9,6 +9,10 @@
   color: #FFF;
 }
 
+.footer__link:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 320px) {
   .footer__link {
     font-size: 24px;

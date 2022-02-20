@@ -1,4 +1,4 @@
-.place__cell_link-cell {
+.place__link-cell {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__cell_link-cell {
+  .place__link-cell {
     margin-left: 16px;
   }
 }

@@ -11,9 +11,13 @@
   color: #FFF;
 }
 
-@media screen and (max-width: 320px) {
+.header__lang-link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 336px) {
   .header__lang-link {
-    font-style: 18px;
+    font-size: 18px;
     line-height: 20px;
   }
 }

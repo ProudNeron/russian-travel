@@ -20,8 +20,13 @@
 
 @media screen and (max-width: 784px) {
   .place{
+    margin-bottom: 73px;
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 90px;
   }
 }
 
