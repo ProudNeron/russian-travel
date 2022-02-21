@@ -10,6 +10,7 @@
   align-items: center;
   text-decoration: none;
   position: relative;
+  background-position: 0 0;
 }
 
 .cover__link::before {
@@ -45,6 +46,7 @@
 @media screen and (max-width: 466px) {
   .cover__link {
     min-height: 292px;
+    background-size: 100%;
   }
 }
 
